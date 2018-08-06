@@ -59,8 +59,7 @@
     <android.support.design.chip.Chip
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello"
-        android:checkable="true" />
+        android:text="Hello"/>
 
     <android.support.design.chip.ChipGroup
         android:layout_width="wrap_content"
@@ -69,7 +68,7 @@
         app:chipSpacingVertical="5dp"
         app:checkedChip="@id/chip_android"
         app:singleSelection="true"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="30dp">
 
         <android.support.design.chip.Chip
             android:id="@+id/chip_android"
