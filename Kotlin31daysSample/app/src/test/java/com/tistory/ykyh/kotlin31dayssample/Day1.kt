@@ -51,5 +51,10 @@ class Day1 {
         }
         println("result $result")
         Assert.assertEquals(2, result)
+
+        val result2 = run {
+            println("this = $this, it = none")
+            1
+        }
     }
 }
