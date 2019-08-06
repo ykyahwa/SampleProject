@@ -11,5 +11,8 @@
     <fragment android:id="@+id/detailFragment" android:name="com.ykyahwa.udemyartandroidapp.view.DetailFragment"
               android:label="fragment_detail" tools:layout="@layout/fragment_detail">
         <action android:id="@+id/actionList" app:destination="@id/listFragment"/>
+        <argument
+                android:name="animal"
+                app:argType="com.ykyahwa.udemyartandroidapp.model.Animal"/>
     </fragment>
 </navigation>
