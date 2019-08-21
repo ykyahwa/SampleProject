@@ -14,7 +14,7 @@ data class Animal(
     val taxonomy: Taxonomy?,
     val location: String?,
     val speed: Speed?,
-    val diet: String,
+    val diet: String?,
     @SerializedName("lifespan")
     val lifeSpan: String?,
     @SerializedName("image")
